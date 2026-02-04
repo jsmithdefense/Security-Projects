@@ -16,7 +16,7 @@
 
 > Creating, tuning, and validating detections to improve signal quality and reduce noise.
 
-- ( Projects will be added as work is migrated. )
+- [**Endpoint monitoring & Rule refinement**]
 
 ---
 
