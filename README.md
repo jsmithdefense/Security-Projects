@@ -25,10 +25,6 @@
 
 ---
 
-### _Data Visualization_
-
-- 
----
 ### _Skills Referenced_
 - Microsoft Defender XDR  
 - Microsoft Sentinel (KQL)  
