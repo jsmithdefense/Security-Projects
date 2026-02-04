@@ -2,7 +2,7 @@
 > Focused on validating alerts, assessing risk, and determining appropriate response actions across endpoint, identity, network, and cloud telemetry.
 #### Skills 
 - Alert validation and incident investigation  
-- Multi-source telemtry correlation
+- Multi-source telemetry correlation
 - Impact assessment and scope determination  
 - Escalation, remediation, or closure decisions
 
