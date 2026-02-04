@@ -23,7 +23,7 @@
 - (Projects will be added as work is migrated.)
 
 ---
-### Skills Referenced
+### Tooling Referenced
 - Microsoft Defender XDR  
 - Microsoft Sentinel (KQL)  
 - Splunk Enterprise Security (SPL)    
