@@ -17,7 +17,7 @@
 
 > Projects focused on creating, tuning, and validating detections to improve signal quality and reduce noise.
 
-### Skills 
+#### Skills 
 - Detection logic development (KQL, SPL)  
 - Alert thresholding and suppression  
 - Incident creation and entity mapping
@@ -28,7 +28,7 @@
 
 > Projects focused on identifying misconfigurations and reducing attack surface.
 
-### Skills 
+#### Skills 
 - Misconfiguration identification  
 - Exposure and risk assessment  
 - Compensating control recommendations  
