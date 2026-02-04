@@ -9,11 +9,8 @@ Each project documents analysis performed, evidence reviewed, and conclusions re
 
 Focused on validating alerts, assessing risk, and determining appropriate response actions across endpoint, identity, network, and cloud telemetry.
 
-[**Internet Exposure & Initial Access**]( — Defender XDR  
-  Assessment of internet-exposed cloud resources and authentication telemetry to determine initial access outcomes.
-
-**Data Exfiltration Investigation** — Defender XDR  
-  Analysis of suspicious file and process activity to assess potential data exfiltration and user impact.
+[**Internet Exposure & Initial Access** — Defender XDR](Threat-Hunts/MDXDR-Internet-Exposure-Initial-Access.md) 
+[**Data Exfiltration Investigation** — Defender XDR]( 
 
 **Spear Phishing Investigation** — Splunk Enterprise Security  
   End-to-end analysis of a phishing event to assess scope, affected users, and escalation requirements.
