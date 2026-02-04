@@ -20,16 +20,20 @@
 ### Skills 
 - Detection logic development (KQL, SPL)  
 - Alert thresholding and suppression  
-- Incident creation and entity mapping  
+- Incident creation and entity mapping
+
+(Projects will be added as detection work is migrated.)
 
 ## _Vulnerability Management & Exposure Reduction_
 
 > Projects focused on identifying misconfigurations and reducing attack surface.
-> 
+
 ### Skills 
 - Misconfiguration identification  
 - Exposure and risk assessment  
 - Compensating control recommendations  
+
+(Projects will be added as detection work is migrated.)
 
 ## Tools & Technologies Referenced
 - Microsoft Defender XDR  
