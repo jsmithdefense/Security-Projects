@@ -1,4 +1,4 @@
-## _Threat Investigations_
+## _Threat Investigation_
 > Focused on validating alerts, assessing risk, and determining appropriate response actions across endpoint, identity, network, and cloud telemetry.
 #### Skills 
 - Alert validation and incident investigation  
