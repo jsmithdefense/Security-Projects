@@ -5,7 +5,7 @@
 An employee working in a sensitive department was recently placed on a performance improvement plan (PIP). Following this action, management raised concerns that the employee may attempt to remove proprietary information prior to departure.
 
 The objective of this investigation was to assess the employee’s activity on their corporate endpoint `vuln-machine` , using Microsoft Defender for Endpoint to determine whether any indicators of data exfiltration were present.
-
+ 
 
 ### Analyze Recent Device File Events
 
