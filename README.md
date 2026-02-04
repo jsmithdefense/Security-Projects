@@ -20,10 +20,9 @@
 
 (Projects will be added as detection work is migrated.)
 
-## Tools & Technologies Referenced
+## Skills Referenced
 - Microsoft Defender XDR  
 - Microsoft Sentinel (KQL)  
-- Splunk Enterprise Security (SPL)  
-- Wazuh EDR  
+- Splunk Enterprise Security (SPL)    
 - Tenable  
 - OSINT and threat intelligence sources  
