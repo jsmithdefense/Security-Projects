@@ -1,6 +1,6 @@
  
 # Environment & Objective:
-Identify endpoints exhibiting indicators of initial access attempts within the last 24 hours and asses whether initial access attempts progresed into successful compromise within a large-scale Azure honeynet environment.
+Identify endpoints exhibiting indicators of initial access attempts within the last 24 hours and validate whether initial access attempts progresed into successful compromise within a large-scale Azure honeynet environment.
 
 
 ## Initial Scoping
