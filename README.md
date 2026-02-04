@@ -29,7 +29,7 @@
 
 - 
 ---
-### Skills Referenced
+### _Skills Referenced_
 - Microsoft Defender XDR  
 - Microsoft Sentinel (KQL)  
 - Splunk Enterprise Security (SPL)    
