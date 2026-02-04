@@ -3,9 +3,9 @@
 
 - [**Internet Exposure & Initial Access** — Defender XDR](Threat-Investigation/MDXDR-Internet-Exposure-Initial-Access.md)
 
-- [**Data Exfiltration Investigation** — Defender XDR](Threat-Investigation/MDXDR-Insider-Threat-Investigation.md)
+- [**Data Exfiltration** — Defender XDR](Threat-Investigation/MDXDR-Insider-Threat-Investigation.md)
 
-- [**Spear-Phishing Investigation**](
+- [**Spear-Phishing** — Splunk ES](Threat-Investigation/Splunk-Phishing-Lateral-Movement.md)
 
 ---
 
