@@ -1,10 +1,11 @@
-## Web Reconnaissance Investigation — User-Agent Anomaly Analysis with Splunk ES
+## Intel-Driven Threat Hunt — Web Reconnaissance & Credential Abuse Detection with Splunk 
 
 ### Environment & Scenario Context
 
 Following reporting from external threat intelligence sources indicating that the Taedonggang APT was targeting public-facing web infrastructure, Frothly conducted a proactive threat hunt to assess potential exposure. 
 
-Using Splunk Enterprise Security, the objective was to identify activity consistent with reported threat actor’s tradecraft and determine whether escalation or mitigation is warranted.
+Using Splunk Enterprise Security, the objective was to identify activity consistent with the reported threat actor’s tradecraft and determine whether escalation or mitigation is warranted.
+
 ---
 
 ### Detection Approach
@@ -23,7 +24,7 @@ Notes guiding the hunt:
 
 * T1595 – Active Scanning
 * T1592 – Gather Victim Host Information
-* T1110.004 - Credential Stuffing
+* T1110.004 - Credential Stuffing (attempted)
 
 ---
 
@@ -91,7 +92,7 @@ Web request analysis associated with `Mozilla/5.0 Jorgee` revealed:
 * Use of `HEAD` and `GET` methods consistent with automated enumeration
 * Over 26,000 requests against a single endpoint, indicating successful target identification
 
-The request structure and repetition consistant with automated activity rather than human exploitation.
+The request structure and repetition consistent with automated activity rather than human exploitation.
 
 ---
 
