@@ -1,5 +1,5 @@
 ### _Threat Investigation_
-> Alert validation and risk assessment across endpoint, identity, network, and cloud telemetry.
+> Alert validation and investiation accross endpoint, identity, network, and cloud telemetry.
 
 - [**Internet Exposure & Initial Access** — Defender XDR](Threat-Investigation/MDXDR-Internet-Exposure-Initial-Access.md)
 
