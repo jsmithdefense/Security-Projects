@@ -16,7 +16,7 @@
 
 > Creating, tuning, and validating detections to improve signal quality and reduce noise.
 
-- [**Endpoint monitoring & Rule refinement**]
+- [**Endpoint monitoring & Rule refinement**](Detection-and-Alerting/Wazuh-Endpoint-Monitoring-Alert-Tuning.md)
 
 ---
 
