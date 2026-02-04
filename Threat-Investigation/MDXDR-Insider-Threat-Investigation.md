@@ -1,4 +1,4 @@
-# Investigating a Data Exfiltration with Microsoft Defender for Endpoint
+# Investigating a Data Exfiltration with Microsoft Defender for Endpoint 
 
 ### Goal & Scenario
 
