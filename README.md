@@ -1,26 +1,29 @@
-## _Threat Investigation_
-> Focused on validating alerts, assessing risk, and determining appropriate response actions across endpoint, identity, network, and cloud telemetry.
+### _Threat Investigation_
+> Alert validation and risk assessment across endpoint, identity, network, and cloud telemetry.
 
-[**Internet Exposure & Initial Access** — Defender XDR](Threat-Investigation/MDXDR-Internet-Exposure-Initial-Access.md)
+- [**Internet Exposure & Initial Access** — Defender XDR](Threat-Investigation/MDXDR-Internet-Exposure-Initial-Access.md)
 
-[**Data Exfiltration Investigation** — Defender XDR](Threat-Investigation/MDXDR-Insider-Threat-Investigation.md)
-
-
+- [**Data Exfiltration Investigation** — Defender XDR](Threat-Investigation/MDXDR-Insider-Threat-Investigation.md)
 
 
-## _Detection & Alerting_
+---
 
-> Projects focused on creating, tuning, and validating detections to improve signal quality and reduce noise.
+### _Detection & Alerting_
 
-(Projects will be added as detection work is migrated.)
+> Creating, tuning, and validating detections to improve signal quality and reduce noise.
 
-## _Vulnerability Management & Exposure Reduction_
+- (Projects will be added as work is migrated.)
 
-> Projects focused on identifying misconfigurations and reducing attack surface.
+---
 
-(Projects will be added as detection work is migrated.)
+### _Vulnerability Management & Exposure Reduction_
 
-## Skills Referenced
+> Identifying misconfigurations and reducing attack surface.
+
+- (Projects will be added as work is migrated.)
+
+---
+### Skills Referenced
 - Microsoft Defender XDR  
 - Microsoft Sentinel (KQL)  
 - Splunk Enterprise Security (SPL)    
