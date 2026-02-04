@@ -11,7 +11,7 @@ Focused on validating alerts, assessing risk, and determining appropriate respon
 
 [**Internet Exposure & Initial Access** — Defender XDR](Threat-Investigation/MDXDR-Internet-Exposure-Initial-Access.md)
 
-[**Data Exfiltration Investigation** — Defender XDR](Threat-investigation/MDXDR-Insider-Threat-Investigation.md)
+[**Data Exfiltration Investigation** — Defender XDR](Threat-Investigation/MDXDR-Insider-Threat-Investigation.md)
 
 **Spear Phishing Investigation** — Splunk Enterprise Security  
   End-to-end analysis of a phishing event to assess scope, affected users, and escalation requirements.
