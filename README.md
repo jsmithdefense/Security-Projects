@@ -12,7 +12,7 @@
 
 > Creating, tuning, and validating detections to improve signal quality and reduce noise.
 
-- (Projects will be added as work is migrated.)
+- ( Projects will be added as work is migrated. )
 
 ---
 
@@ -20,8 +20,13 @@
 
 > Identifying misconfigurations and reducing attack surface.
 
-- (Projects will be added as work is migrated.)
+- ( Projects will be added as work is migrated. )
 
+---
+
+### _Data Visualization_
+
+- 
 ---
 ### Skills Referenced
 - Microsoft Defender XDR  
