@@ -5,7 +5,10 @@
 
 - [**Data Exfiltration** — Defender XDR](Threat-Investigation/MDXDR-Insider-Threat-Investigation.md)
 
-- [**Spear-Phishing** — Splunk ES](Threat-Investigation/Splunk-Phishing-Lateral-Movement.md)
+- [**Spear-Phishing** — Splunk](Threat-Investigation/Splunk-Phishing-Lateral-Movement.md)
+
+- [**Intel-Driven Threat Hunt** — Splunk](Threat-Investigation/Splunk-Inteal-Driven-Threat-Hunt.md)
+
 
 ---
 
