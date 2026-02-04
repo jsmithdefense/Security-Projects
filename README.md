@@ -5,6 +5,7 @@
 
 - [**Data Exfiltration Investigation** — Defender XDR](Threat-Investigation/MDXDR-Insider-Threat-Investigation.md)
 
+- [**Spear-Phishing Investigation**](
 
 ---
 
