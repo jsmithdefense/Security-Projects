@@ -20,7 +20,7 @@
 
 ---
 
-### _Vulnerability Management & Exposure Reduction_
+### _Vulnerability Management_
 
 > Identifying misconfigurations and reducing attack surface.
 
