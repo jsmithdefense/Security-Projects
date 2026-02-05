@@ -7,7 +7,9 @@ Following notification from federal authorities, Frothly identified suspected in
 The objective of this investigation was to determine the scope & impact of the spear-phishing campaign within the environment.
 
 **Platform:** Splunk Enterprise Security
+
 **Timeframe:** August 2017
+
 **ATT&CK Focus:**
 
 * T1566.001 – Spearphishing Attachment
