@@ -4,7 +4,7 @@
 
 Following notification from federal authorities, Frothly identified suspected intrusion activity attributed to **Taaedonggang APT**, a threat group known to target Western supply-chain organizations.
 
-The objective of this investigation was to determine whether a spear-phishing campaign resulted in successful initial access, subsequent execution, lateral movement, and data exfiltration within the environment.
+The objective of this investigation was to determine the scope & impact of the spear-phishing campaign within the environment.
 
 **Platform:** Splunk Enterprise Security
 **Timeframe:** August 2017
