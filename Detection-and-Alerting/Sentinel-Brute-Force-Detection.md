@@ -57,6 +57,7 @@ DeviceLogonEvents
 * **Query frequency:** Periodic (scheduled)
 * **Lookback period:** 5 hours (defined in query)
 * **Alert trigger:** Generate alert when query returns results
+* **Severity:** Medium
 * **Entity mapping:**
 
   * Host → `DeviceName`
