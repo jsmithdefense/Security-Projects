@@ -63,6 +63,9 @@ DeviceLogonEvents
   * Host → `DeviceName`
   * IP address → `RemoteIP`
 
+
+<img width="1497" height="433" alt="image" src="https://github.com/user-attachments/assets/cf176895-2060-4025-a996-f6dea06a2505" />
+
 ---
 
 ### Alert Interpretation
@@ -79,5 +82,5 @@ This alert does **not** confirm successful authentication or compromise.
 
 ### Risk Reduction
 
-To reduce exposure, inbound access to affected virtual machines can be restricted at the network layer (e.g., tightening NSG inbound rules or using Azure Bastion instead of exposing RDP/SSH publicly).
+To reduce exposure, inbound access to affected virtual machines can be restricted at the network layer (e.g., tightening NSG inbound rules or using Azure Bastion instead of exposing RDP/SSH publicly.
 
