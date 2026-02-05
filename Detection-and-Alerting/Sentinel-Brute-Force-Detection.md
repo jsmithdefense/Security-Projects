@@ -64,7 +64,8 @@ DeviceLogonEvents
   * IP address → `RemoteIP`
 
 
-<img width="1497" height="433" alt="image" src="https://github.com/user-attachments/assets/cf176895-2060-4025-a996-f6dea06a2505" />
+<img width="1099" height="293" alt="image" src="https://github.com/user-attachments/assets/ef083879-4645-4a8d-842a-65cf99d6c8f0" />
+
 
 ---
 
