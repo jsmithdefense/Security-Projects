@@ -35,4 +35,4 @@
 - Microsoft Sentinel (KQL)  
 - Splunk Enterprise Security (SPL)    
 - Tenable  
-- OSINT and threat intelligence sources  
+- OSINT and CTI
