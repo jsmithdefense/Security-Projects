@@ -1,4 +1,4 @@
-## Creating a Brute Force Detection in Microsoft Sentinel  
+## Creating a Brute Force Detection Rule in Microsoft Sentinel  
 
 I created a scheduled analytics rule in Microsoft Sentinel to detect potential brute force activity by alerting when the same remote IP generates repeated failed logon attempts against the same host within a defined time window.
 
