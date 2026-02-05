@@ -18,7 +18,7 @@
 
 - [**Brute Force Detection** — Sentinel](Detection-and-Alerting/Sentinel-Brute-Force-Detection.md)
 
-- [**Endpoint monitoring & Alert Refinement — Wazuh**](Detection-and-Alerting/Wazuh-Endpoint-Monitoring-Alert-Tuning.md)
+- [**Endpoint monitoring & Alert Refinement** — Wazuh](Detection-and-Alerting/Wazuh-Endpoint-Monitoring-Alert-Tuning.md)
 
 ---
 
