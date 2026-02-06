@@ -132,7 +132,6 @@ If correlated with evidence of identity compromise, this activity may indicate a
 
 ---
 
-
 ### TL;DR
 
 Due to limited data-plane visibility in my environment, I pivoted from direct detection of public blob abuse to identifying management-plane behaviors that expose long-lived cloud credentials.
