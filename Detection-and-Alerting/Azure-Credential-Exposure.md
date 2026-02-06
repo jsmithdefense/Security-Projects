@@ -1,4 +1,4 @@
-## Detecting Credential Exposure Risk Across Azure Storage Trust Boundaries
+## Detecting Credential Exposure Risk Across Azure Storage Trust Abuse
 
 ### Threat Context (CTI Reference)
 
