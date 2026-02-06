@@ -56,7 +56,7 @@ While reviewing available logs, I identified visibility into **credential-relate
 * Key regeneration
 * Storage account configuration changes
 
-These operations occur at the **management plane** and require identity evaluation.
+These operations occur at the **management plane** and require prior identity evaluation.
 
 Although they don't directly detect data-plane abuse, they can indicate **credential exposure risk** and potential **post-compromise activity**.
 
