@@ -78,9 +78,7 @@ If an identity that has not recently interacted with storage credentials suddenl
 
 This is **not** a detection of public blob abuse itself. It's a **supporting detection** focused on **credential exposure behavior** in environments with limited data-plane visibility.
 
----
-
-### Detection Logic & KQL
+#### Logic & KQL:
 
 1. Establish a **baseline** of identities that have enumerated storage credentials over a defined window
 2. Observe **recent activity** within a short detection window
