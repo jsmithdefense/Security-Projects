@@ -1,5 +1,4 @@
-## Intel-Driven Threat Hunt — Web Reconnaissance & Credential Abuse Detection with Splunk (Simulation)
-
+## Intel-Driven Threat Hunt Simulation — Web Reconnaissance & Credential Abuse Detection with Splunk 
 ### Environment & Scenario Context
 
 Following reporting from external threat intelligence sources indicating that the Taedonggang APT was targeting public-facing web infrastructure, Frothly conducted a proactive threat hunt to assess potential exposure. 
