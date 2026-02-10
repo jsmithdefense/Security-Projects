@@ -15,6 +15,7 @@
 
 - [**Intel-Driven Threat Hunt** — Splunk](Threat-Investigation/Splunk-Intel-Driven-Threat-Hunt.md)
 
+  _Proactively hunted for IOCs accross endpoint and network telemetry, assesed organizational risk and validated findings_ 
 
 ---
 
