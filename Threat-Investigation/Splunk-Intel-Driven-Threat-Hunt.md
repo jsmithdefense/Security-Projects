@@ -1,4 +1,4 @@
-## Intel-Driven Threat Hunt — Web Reconnaissance & Credential Abuse Detection with Splunk 
+## Intel-Driven Threat Hunt — Web Reconnaissance & Credential Abuse Detection with Splunk (Simulation)
 
 ### Environment & Scenario Context
 
