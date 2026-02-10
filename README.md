@@ -29,6 +29,8 @@
 
 - [**Endpoint monitoring & Alert Refinement** — Wazuh](Detection-and-Alerting/Wazuh-Endpoint-Monitoring-Alert-Tuning.md)
 
+  _Deployed multi-OS Wazuh EDR environment with ssecure, VPN routed agent communication. I tuned detection rules by baselining normal behavior, reducing noise from compliance checks to prioritize behavioral threat indicators_
+  
 ---
 
 ### _Vulnerability Management_
