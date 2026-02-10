@@ -13,7 +13,7 @@
 
   _Traced phishing campaign from initial access through exfiltration, correlated web/email/auth/endpoint logs to asses scope and impact_
 
-- [**Intel-Driven Threat Hunt** — Splunk](Threat-Investigation/Splunk-Inteal-Driven-Threat-Hunt.md)
+- [**Intel-Driven Threat Hunt** — Splunk](Threat-Investigation/Splunk-Intel-Driven-Threat-Hunt.md)
 
 
 ---
