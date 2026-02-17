@@ -4,7 +4,7 @@
 
 This work was informed by a Microsoft CTI report describing threat activity targeting **Azure Blob Storage** through abuse of **implicit trust relationships**.
 
-[Full Report](https://www.microsoft.com/en-us/security/blog/2025/10/20/inside-the-attack-chain-threat-activity-targeting-azure-blob-storage/)
+[Full Microsoft Report](https://www.microsoft.com/en-us/security/blog/2025/10/20/inside-the-attack-chain-threat-activity-targeting-azure-blob-storage/)
 
 The attack model centers on:
 
