@@ -38,7 +38,7 @@ In my Azure honeynet environment:
 
 As a result, the CTI attack cannot be directly detected as described because the relevant logs do not exist in this environment. Therefore, I reframed the problem:
 
-> *What risk-adjacent behaviors can be observed given only management-level telemetry?*
+> *What risk-adjacent behaviors can be observed given only management-level visibility?*
 
 #### _Enviorment Threat Model_
 
