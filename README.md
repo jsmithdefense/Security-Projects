@@ -3,11 +3,11 @@
 
 - [**Internet Exposure & Initial Access** — Defender XDR](Threat-Investigation/MDXDR-Internet-Exposure-Initial-Access.md)
 
-  _Investigated Azure resource misconfiguration leading to public exposure, validated authentication attempts, recommended NSG hardening_
+  _Investigated Azure resource misconfiguration resulting in unintended internet exposure, assessed authentication outcomes, and recommended NSG hardening_
 
 - [**Data Exfiltration** — Defender XDR](Threat-Investigation/MDXDR-Insider-Threat-Investigation.md)
 
-  _Analyzed anomalous outbound data transfer following potential compromise, validated file access and network telemetry to confirm exfiltration path and scope_
+  _Analyzed anomalous outbound data transfer following potential compromise, assessed file access and network telemetry to confirm exfiltration path and scope_
 
 - [**Spear-Phishing** — Splunk](Threat-Investigation/Splunk-Phishing-Lateral-Movement.md)
 
@@ -15,7 +15,7 @@
 
 - [**Intel-Driven Threat Hunt** — Splunk](Threat-Investigation/Splunk-Intel-Driven-Threat-Hunt.md)
 
-  _Proactively hunted for IOCs accross endpoint and network telemetry, assesed organizational risk and validated findings_ 
+  _Proactively hunted for IOCs accross endpoint and network telemetry, assesed organizational risk and reported findings_ 
 
 ---
 
