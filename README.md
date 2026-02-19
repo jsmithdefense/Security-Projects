@@ -9,6 +9,9 @@
 
   _Analyzed anomalous outbound data transfer following potential compromise, assessed file access and network telemetry to confirm exfiltration path and scope_
 
+- [**Tor Browser Final Project** — Defender XDR](Threat-Investigation/Tor-Browser-Final-Project/MDXDR-Tor-Browser.md)
+
+
 - [**Spear-Phishing** — Splunk](Threat-Investigation/Splunk-Phishing-Lateral-Movement.md)
 
   _Traced phishing campaign from initial access through exfiltration, correlated web/email/auth/endpoint logs to asses scope and impact_
