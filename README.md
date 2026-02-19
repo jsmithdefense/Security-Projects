@@ -26,6 +26,8 @@
 
 > Creating, tuning, and validating detections to improve signal quality and reduce noise.
 
+- [**Credential Exposure Risk** — Azure](Detection-and-Alerting/Azure-Credential-Exposure.md)
+
 - [**Brute Force Detection** — Sentinel](Detection-and-Alerting/Sentinel-Brute-Force-Detection.md)
 
   _Created scheduled KQL analytics rule to detect repeated failed authentication attempts from single IPs, tuned threshold to 20 failures over 5 hours to balance noise reduction with detection coverage_
