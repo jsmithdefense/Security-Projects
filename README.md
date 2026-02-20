@@ -29,6 +29,8 @@
 
 - [**Credential Exposure Risk** — Azure](Detection-and-Alerting/Azure-Credential-Exposure.md)
 
+  _CTI-informed threat model and KQL detection for anomalous storage credential enumeration_
+  
 - [**Brute Force Detection** — Sentinel](Detection-and-Alerting/Sentinel-Brute-Force-Detection.md)
 
   _Created scheduled KQL analytics rule to detect repeated failed authentication attempts from single IPs, tuned threshold to 20 failures over 5 hours to balance noise reduction with detection coverage_
