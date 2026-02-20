@@ -43,7 +43,7 @@
 
 ### _Vulnerability Management_
 
- Identifying misconfigurations and reducing attack surface.
+ Identifying vulnerabilities and conducting STIG implementations reducing attack surface.
 
 - [**WN11-AU-000050 STIG Remediation**](Vulnerability-Management/STIG-Implementations/WN11-AU-000050)
 ---
