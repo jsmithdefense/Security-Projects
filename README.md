@@ -7,7 +7,7 @@
 
 - [**Data Exfiltration** — Defender XDR](Threat-Investigation/MDXDR-Insider-Threat-Investigation.md)
 
-  > _Analyzed anomalous outbound data transfer following potential compromise, assessed file access and network telemetry to confirm exfiltration path and scope_
+  > _Analyzed anomalous outbound data transfer following potential compromise, assessed file access and network telemetry to confirm exfiltration path and impact_
 
 - [**Tor Browser Final Project** — Defender XDR](Threat-Investigation/Tor-Browser-Final-Project/MDXDR-Tor-Browser.md)
 
