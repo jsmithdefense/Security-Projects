@@ -42,8 +42,7 @@
 
 > Identifying misconfigurations and reducing attack surface.
 
-- ( Projects will be added as work is migrated. )
-
+- [**WN11-AU-000050 STIG Remediation**](Vulnerability-Management/STIG-Implementations/WN11-AU-000050)
 ---
 
 ### _Skills Referenced_
