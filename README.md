@@ -11,6 +11,7 @@
 
 - [**Tor Browser Final Project** — Defender XDR](Threat-Investigation/Tor-Browser-Final-Project/MDXDR-Tor-Browser.md)
 
+  _Detected suspicious Tor browser usage on endpoints, analyzed network telemetry to assess security risk_
 
 - [**Spear-Phishing** — Splunk](Threat-Investigation/Splunk-Phishing-Lateral-Movement.md)
 
