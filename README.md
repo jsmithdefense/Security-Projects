@@ -48,7 +48,7 @@
 
  Powershell STIG implementation scripts to reducing attack surface.
 
-- [**WN11-AU-000050 STIG Remediation**](Vulnerability-Management/STIG-Implementations/WN11-AU-000050_Proccess_Create_Auditing)
+- [**WN11-AU-000050 STIG Remediation - Process Create Auditing**](Vulnerability-Management/STIG-Implementations/WN11-AU-000050_Proccess_Create_Auditing)
 - [**WN11-CC-000110 STIG Remediation**](Vulnerability-Management/STIG-Implementations/WN11-CC-000110_Disable_HTTP_Printitng)
-- [**WN11-AC-000005 STIG Remediation**](Vulnerability-Management/STIG-Implementations/WN11-AC-000005_Lockout_Duration)
+- [**WN11-AC-000005 STIG Remediation - Account Lockout**](Vulnerability-Management/STIG-Implementations/WN11-AC-000005_Lockout_Duration)
 ---
