@@ -49,4 +49,5 @@
  Identifying vulnerabilities and conducting STIG implementations reducing attack surface.
 
 - [**WN11-AU-000050 STIG Remediation**](Vulnerability-Management/STIG-Implementations/WN11-AU-000050)
+- [**WN11-CC-000110 STIG Remediation**](Vulnerability-Management/STIG-Implementations/WN11-CC-000110_Disable_HTTP_Printitng)
 ---
