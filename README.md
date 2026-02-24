@@ -10,19 +10,19 @@
 
 - [**Data Exfiltration** — Defender XDR](Threat-Investigation/MDXDR-Insider-Threat-Investigation.md)
 
-  > _Analyzed anomalous outbound data transfer following potential compromise, assessed file access and network telemetry to confirm exfiltration path and impact_
+  > _Investigated anomalous outbound data transfer following potential compromise, assessed file access and network telemetry to confirm exfiltration path and impact_
 
 - [**Tor Browser Final Project** — Defender XDR](Threat-Investigation/Tor-Browser-Final-Project/MDXDR-Tor-Browser.md)
 
-  > _Detected suspicious Tor browser usage on endpoints, analyzed network telemetry to assess security risk_
+  > _Investigated suspicious Tor browser usage on endpoints, analyzed network telemetry to assess security risk_
 
 - [**Spear-Phishing** — Splunk](Threat-Investigation/Splunk-Phishing-Lateral-Movement.md)
 
-  > _Traced phishing campaign from initial access through exfiltration, correlated web/email/auth/endpoint logs to asses scope and impact_
+  > _Investigated phishing campaign from initial access through exfiltration, correlated web/email/auth/endpoint logs to asses scope and impact_
 
 - [**Intel-Driven Threat Hunt** — Splunk](Threat-Investigation/Splunk-Intel-Driven-Threat-Hunt.md)
 
-  > _Proactively hunted for IOCs accross endpoint and network telemetry, assesed organizational risk and reported findings_ 
+  > _ Investigated endpoint and network telemetry, assesed organizational risk and reported findings_ 
 
 ---
 
