@@ -22,7 +22,7 @@
 
 - [**Intel-Driven Threat Hunt** — Splunk](Threat-Investigation/Splunk-Intel-Driven-Threat-Hunt.md)
 
-  > _Investigated threat intelligence indicating APT targeting of web infrastructure, observed 26,000+ automated credential stuffing attempts against phpMyAdmin endpoint with no successful authentication, recommended exposure reduction controls_ 
+  > _Proactively hunted for IoC informed by CTI reporting of an APT targeting web infrastructure, observed 26,000+ automated credential stuffing attempts against phpMyAdmin endpoint with no successful authentication, recommended exposure reduction controls_ 
 
 ---
 
