@@ -32,7 +32,7 @@
 
 - [**Credential Exposure Risk** — Azure](Detection-and-Alerting/Azure-Credential-Exposure.md)
 
-  > _CTI-informed threat model and KQL detection for anomalous storage credential enumeration_
+  > _Adapted Microsoft CTI report to model how implicit trust of storage keys enables identity-less persistence, developed KQL detection for anomalous credential enumeration as a potential post-compromise indicator_
   
 - [**Brute Force Detection** — Sentinel](Detection-and-Alerting/Sentinel-Brute-Force-Detection.md)
 
