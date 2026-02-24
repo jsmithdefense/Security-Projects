@@ -10,19 +10,19 @@
 
 - [**Data Exfiltration** — Defender XDR](Threat-Investigation/MDXDR-Insider-Threat-Investigation.md)
 
-  > _Investigated anomalous outbound data transfer following potential compromise, assessed file access and network telemetry to confirm exfiltration path and impact_
+  > _Investigated suspected insider data exfiltration following employee PIP placement, observed PowerShell data staging on endpoint, found no evidence of network exfiltration beyond local staging activity_
 
 - [**Tor Browser Final Project** — Defender XDR](Threat-Investigation/Tor-Browser-Final-Project/MDXDR-Tor-Browser.md)
 
-  > _Investigated suspicious Tor browser usage on endpoints, analyzed network telemetry to assess security risk_
+  > _Investigated unauthorized Tor browser usage on corporate endpoint, observed installation and active network connections to Tor nodes, isolated device and notified management_
 
 - [**Spear-Phishing** — Splunk](Threat-Investigation/Splunk-Phishing-Lateral-Movement.md)
 
-  > _Investigated phishing campaign from initial access through exfiltration, correlated web/email/auth/endpoint logs to asses scope and impact_
+  > _Investigated spear-phishing campaign from initial access through exfiltration, observed 4 compromised hosts with PowerShell C2 beaconing. Estimated ~120MB data exfiltrated_
 
 - [**Intel-Driven Threat Hunt** — Splunk](Threat-Investigation/Splunk-Intel-Driven-Threat-Hunt.md)
 
-  > _ Investigated endpoint and network telemetry, assesed organizational risk and reported findings_ 
+  > _Investigated threat intelligence indicating APT targeting of web infrastructure, observed 26,000+ automated credential stuffing attempts against phpMyAdmin endpoint with no successful authentication, recommended exposure reduction controls_ 
 
 ---
 
