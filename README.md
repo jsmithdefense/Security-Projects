@@ -1,8 +1,25 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:a371f7&text=Projects&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40" width="100%"/>
 
+### _Detection & Alerting_
+
+
+
+- [**Credential Exposure Risk** — Azure](Detection-and-Alerting/Azure-Credential-Exposure.md)
+
+  > _Adapted Microsoft CTI report to model how implicit trust of storage keys enables identity-less persistence, developed KQL detection for anomalous credential enumeration as a potential post-compromise indicator_
+  
+- [**Brute Force Detection** — Sentinel](Detection-and-Alerting/Sentinel-Brute-Force-Detection.md)
+
+  > _Created scheduled KQL analytics rule to detect repeated failed authentication attempts from single IPs, tuned threshold to 20 failures over 5 hours to balance noise reduction with detection coverage_
+
+- [**Endpoint monitoring & Alert Refinement** — Wazuh](Detection-and-Alerting/Wazuh-Endpoint-Monitoring-Alert-Tuning.md)
+
+  > _Deployed multi-OS Wazuh EDR with secure VPN configuration, baselined behavior to tune detections and reduce compliance noise_
+
+---
 
 ### _Threat Investigations_
- Alert validation and investiation accross endpoint, identity, network, and cloud telemetry.
+
 
 - [**Internet Exposure & Initial Access** — Defender XDR](Threat-Investigation/MDXDR-Internet-Exposure-Initial-Access.md)
 
@@ -23,24 +40,6 @@
 - [**Intel-Driven Threat Hunt** — Splunk](Threat-Investigation/Splunk-Intel-Driven-Threat-Hunt.md)
 
   > _Proactively hunted for IoC informed by CTI reporting of an APT targeting web infrastructure, observed 26,000+ automated credential stuffing attempts against phpMyAdmin endpoint with no successful authentication, recommended exposure reduction controls_ 
-
----
-
-### _Detection & Alerting_
-
- Creating, tuning, and validating detections to improve signal quality and reduce noise.
-
-- [**Credential Exposure Risk** — Azure](Detection-and-Alerting/Azure-Credential-Exposure.md)
-
-  > _Adapted Microsoft CTI report to model how implicit trust of storage keys enables identity-less persistence, developed KQL detection for anomalous credential enumeration as a potential post-compromise indicator_
-  
-- [**Brute Force Detection** — Sentinel](Detection-and-Alerting/Sentinel-Brute-Force-Detection.md)
-
-  > _Created scheduled KQL analytics rule to detect repeated failed authentication attempts from single IPs, tuned threshold to 20 failures over 5 hours to balance noise reduction with detection coverage_
-
-- [**Endpoint monitoring & Alert Refinement** — Wazuh](Detection-and-Alerting/Wazuh-Endpoint-Monitoring-Alert-Tuning.md)
-
-  > _Deployed multi-OS Wazuh EDR with secure VPN configuration, baselined behavior to tune detections and reduce compliance noise_
   
 ---
 
