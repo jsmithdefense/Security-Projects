@@ -43,7 +43,7 @@
 ---
 
 ### _Vulnerability Management_
-PowerShell scripts for automated Windows 11 STIG remediation
+Repeatable, consistent PowerShell scripts to automate Windows 11 STIG remediation and reduce human error
 
 - [WN11-AU-000050 STIG Remediation - **Enable Process Creation Auditing**](Vulnerability-Management/STIG-Implementations/WN11-AU-000050_Proccess_Create_Auditing)
 - [WN11-AU-000560 STIG Remediation - **Enable Logon Auditing**](Vulnerability-Management/STIG-Implementations/WN11-AU-000560_Enable_Logon_Auditing)
