@@ -48,7 +48,7 @@
 PowerShell scripts for automated Windows 11 STIG remediation
 
 - [WN11-AU-000050 STIG Remediation - **Process Creation Auditing**](Vulnerability-Management/STIG-Implementations/WN11-AU-000050_Proccess_Create_Auditing)
-- [WN11-CC-000110 STIG Remediation - **Disable HTTP Printing**](Vulnerability-Management/STIG-Implementations/WN11-CC-000110_Disable_HTTP_Printing)
+- [WN11-CC-000110 STIG Remediation - **Disable HTTP Printing**](Vulnerability-Management/STIG-Implementations/WN11-CC-000110_Disable_HTTP_Printitng)
 - [WN11-AC-000005 STIG Remediation - **Account Lockout Duration**](Vulnerability-Management/STIG-Implementations/WN11-AC-000005_Lockout_Duration)
 - [WN11-00-000090 STIG Remediation - **Password Expiration**](Vulnerability-Management/STIG-Implementations/WN11-00-000090_Password_Expiration)
 ---
