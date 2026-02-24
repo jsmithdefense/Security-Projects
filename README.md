@@ -52,4 +52,5 @@ PowerShell scripts for automated Windows 11 STIG remediation
 - [WN11-AC-000005 STIG Remediation - **Account Lockout Duration**](Vulnerability-Management/STIG-Implementations/WN11-AC-000005_Lockout_Duration)
 - [WN11-00-000090 STIG Remediation - **Password Expiration**](Vulnerability-Management/STIG-Implementations/WN11-00-000090_Password_Expiration)
 - [WN11-00-000395 SITG Remediation - **Disable PortProxy**](Vulnerability-Management/STIG-Implementations/WN11-00-000395_Disable_PortProxy)
+- [WN11-AC-000010 STIG Remdeiation - **Limit Logon Attempts**](Vulnerability-Management/STIG-Implementations/WN11-AC-000010_Limit_Logon_Attempts)
 ---
