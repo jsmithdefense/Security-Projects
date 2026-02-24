@@ -52,3 +52,4 @@ PowerShell scripts for automated Windows 11 STIG remediation
 - [WN11-00-000395 SITG Remediation - **Disable PortProxy**](Vulnerability-Management/STIG-Implementations/WN11-00-000395_Disable_PortProxy)
 - [WN11-CC-000315 STIG Remediation - **Disable Automatic Elevation**](Vulnerability-Management/STIG-Implementations/WN11-CC-000315_Disable_Automatic_Privelage_Elevation)
 - [WN11-AC-000010 STIG Remdeiation - **Limit Logon Attempts**](Vulnerability-Management/STIG-Implementations/WN11-AC-000010_Limit_Logon_Attempts)
+- [WN11-CC-000185 STIG Remediation - **Disable Autorun Commands**](Vulnerability-Management/STIG-Implementations/WN11-CC-000185_Disable_Autorun_Commands)
