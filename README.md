@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:a371f7&text=Projects&fontSize=60&fontColor=FFFFFF&animation=fadeIn&fontAlignY=40" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:a371f7&text=Projects&fontSize=60&fontColor=B9D9EB&animation=fadeIn&fontAlignY=40" width="100%"/>
 
 ### _Detection & Alerting_
 
