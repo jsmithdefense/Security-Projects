@@ -29,8 +29,9 @@
 
   > _Investigated suspected insider data exfiltration following employee PIP placement, observed PowerShell data staging on endpoint, found no evidence of network exfiltration beyond local staging activity_
 
-- [**"The Broker" Threat Hunt CTF** — Sentinel / Defender XDR ](Threat-Investigation/Sentinel-The-Broker-Threat-Hunt-CTF.md)
-
+- [**"The Broker" Threat Hunt CTF Writeup** — Sentinel / Defender XDR ](Threat-Investigation/Sentinel-The-Broker-Threat-Hunt-CTF.md)
+  > _Investigated multi-host hands-on-keyboard intrusion, traced credential dumping, lateral movement, persistence mechanisms, and payroll data staging across enterprise endpoints_
+  
 - [**Tor Browser Final Project** — Defender XDR](Threat-Investigation/Tor-Browser-Final-Project/MDXDR-Tor-Browser.md)
 
   > _Investigated unauthorized Tor browser usage on corporate endpoint, observed installation and active network connections to Tor nodes, isolated device and notified management_
