@@ -8,7 +8,7 @@
 
   > _Adapted Microsoft CTI report to model how implicit trust of storage keys enables identity-less persistence, developed KQL detection for anomalous credential enumeration as a potential post-compromise indicator_
   
-- [**Brute Force Detection** — Sentinel](Detection-and-Alerting/Sentinel-Brute-Force-Detection.md)
+- [**Azure VM Exposure & Access Hardening** — Azure / Sentinel](Detection-and-Alerting/Azure-VM-Exposure-and-Access-Hardening.md)
 
   > _Created scheduled KQL analytics rule to detect repeated failed authentication attempts from single IPs, tuned threshold to 20 failures over 5 hours to balance noise reduction with detection coverage_
 
