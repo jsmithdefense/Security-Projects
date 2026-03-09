@@ -1,4 +1,5 @@
-## Creating a Brute Force Detection Rule in Microsoft Sentinel   
+## Azure VM Exosure Access Hardening
+Identified Azure resource miscofigurations resulting in unintended interenet exposure. Evaluated authentication telemetry and recommended NSG rule hardening to reduce attack surface.
 
 I created a scheduled analytics rule in Microsoft Sentinel to detect potential brute force activity by alerting when the same remote IP generates repeated failed logon attempts against the same host within a defined time window.
 
