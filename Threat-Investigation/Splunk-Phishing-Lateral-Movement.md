@@ -1,16 +1,18 @@
-## Spear-Phishing Investigation & Lateral Movement Analysis with Splunk ES
+# Spear-Phishing Investigation & Lateral Movement Analysis with Splunk ES
 
-### Environment & Scenario Context
+### Scenario Context
 
 Following notification from federal authorities, Frothly identified suspected intrusion activity attributed to **Taaedonggang APT**, a threat group known to target Western supply-chain organizations.
 
-The objective of this investigation was to determine the scope & impact of the spear-phishing campaign within the environment.
+**Objective**: Determine the scope & impact of the spear-phishing campaign within the environment.
 
-**Platform:** Splunk Enterprise Security
+---
 
-**Timeframe:** August 2017
+Platform: Splunk Enterprise Security
 
-**ATT&CK Focus:**
+Timeframe: August 2017
+
+MITRE ATT&CK:
 
 * T1566.001 – Spearphishing Attachment
 * T1059.001 – PowerShell
