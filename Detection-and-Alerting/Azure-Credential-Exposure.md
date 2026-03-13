@@ -62,9 +62,11 @@ Although they don't directly detect data-plane abuse, they can indicate **creden
 
 ---
 
-### MITRE ATT&CK Mapping
+### MITRE ATT&CK
 
-> MITRE ATT&CK T1098.001 (Account Manipulation: Additional Cloud Credentials) 
+> T1078.004 (Valid Accounts: Cloud Accounts)
+> 
+> T1098.001 (Account Manipulation: Additional Cloud Credentials) 
 
 Enumerating storage account keys or SAS tokens enables the reuse of long-lived cloud credentials that provide persistent access independent of identity re-evaluation.
 
@@ -136,4 +138,4 @@ If correlated with evidence of identity compromise, this activity may indicate a
 
 Due to limited data-plane visibility in my environment, I pivoted from direct detection of public blob abuse to identifying management-plane behaviors that expose long-lived cloud credentials.
 
-This detection highlights previously unseen identities enumerating storage keys or SAS tokens—an action that can enable persistence independent of identity re-evaluation—and serves as a supporting risk signal when correlated with identity compromise.
+This detection highlights previously unseen identities enumerating storage keys or SAS tokens. These actions can enable identity-less persistence and serves as a supporting risk signal when correlated with identity compromise.
