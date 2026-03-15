@@ -6,7 +6,7 @@
 
 - [**Credential Exposure Risk** — Azure](Detection-and-Alerting/Azure-Credential-Exposure.md)
 
-  > _Adapted Microsoft CTI report to model how implicit trust of storage keys enables identity-less persistence, developed KQL detection for anomalous credential enumeration as a potential post-compromise indicator_
+  > _Used a Microsoft CTI report to model how implicit trust of keys or SAS tokens enables a path to silent persistence in Azure. Once enumerated, access is granted without re-evaluating identity. I built a KQL detection to flag identities enumarating their credentials outside of their normal pattern_
   
 - [**Azure VM Exposure & Access Hardening** — Azure / Sentinel](Detection-and-Alerting/Azure-VM-Exposure-and-Access-Hardening.md)
 
