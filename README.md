@@ -21,7 +21,7 @@
 ### _Threat Investigations_
 
 
-- [**Investigatine Unintended Internet Exposure** — Defender XDR](Threat-Investigation/MDXDR-Internet-Exposure-Initial-Access.md)
+- [**Investigating Unintended Internet Exposure** — Defender XDR](Threat-Investigation/MDXDR-Internet-Exposure-Initial-Access.md)
 
   > _Investigated Azure resource misconfiguration resulting in unintended internet exposure, assessed authentication outcomes, and recommended NSG hardening_
 
