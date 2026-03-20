@@ -1,6 +1,6 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:1da1f2&text=Projects&fontSize=60&fontColor=B9D9EB&animation=fadeIn&fontAlignY=40" width="100%"/>
 
-### Azure
+### Azure:
 
 
 - [**Modeling Cloud Storage and Credential Exposure Risk**](Detection-and-Alerting/Azure-Credential-Exposure.md)
@@ -14,7 +14,7 @@
 
 ---
 
-### Defeder XDR
+### Defeder XDR:
 
 - [**Investigating Unintended Internet Exposure**](Threat-Investigation/MDXDR-Internet-Exposure-Initial-Access.md)
 
@@ -31,7 +31,7 @@
 
 ---
 
-### Tenable
+### Tenable:
 
 [READ ME](Vulnerability-Management/README.md)
 
@@ -48,7 +48,7 @@
 
 ---
 
-### Splunk
+### Splunk:
 
 - [**Investigating a Spear-Phishing Campaign**](Threat-Investigation/Splunk-Phishing-Lateral-Movement.md)
 
@@ -60,7 +60,7 @@
 
 ---
 
-### OTHER
+### OTHER:
 
 - [**Multi-Host Hands-On-Keybaord Intrusion CTF**](Threat-Investigation/Sentinel-The-Broker-Threat-Hunt-CTF.md)
 
