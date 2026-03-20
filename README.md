@@ -3,11 +3,11 @@
 ### Azure:
 
 
-- [**Modeling Cloud Storage and Credential Exposure Risk**](Detection-and-Alerting/Azure-Credential-Exposure.md)
+- [**Modeling Cloud Storage and Credential Exposure Risk**](Azure/Azure-Credential-Exposure.md)
 
   > _Used a Microsoft CTI report to model how implicit trust of keys or SAS tokens enables a path to silent persistence in Azure. Once enumerated, access is granted without re-evaluating identity. I built a KQL detection that flags identities enumarating their credentials outside of their normal pattern_
   
-- [**Azure VM Exposure & Access Hardening**](Detection-and-Alerting/Azure-VM-Exposure-and-Access-Hardening.md)
+- [**Azure VM Exposure & Access Hardening**](Azure/Azure-VM-Exposure-and-Access-Hardening.md)
 
   > _Created scheduled KQL analytics rule to detect repeated failed authentication attempts from single IPs, tuned threshold to 20 failures over 5 hours to balance noise reduction with detection coverage_
 
