@@ -16,7 +16,7 @@
 
 ### Defeder XDR:
 
-- [**Investigating Unintended Azure Vm Exposure**](Defender-XDR/mdxdr-internet-exposure-initial-access.md)
+- [**Investigating Unintended Azure VM Exposure**](Defender-XDR/mdxdr-internet-exposure-initial-access.md)
 
   > _Investigated Azure resource misconfiguration resulting in unintended internet exposure, assessed authentication outcomes, and recommended NSG hardening_
 
