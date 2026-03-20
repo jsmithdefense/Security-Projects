@@ -3,7 +3,6 @@
 ### Azure
 
 
-
 - [**Modeling Cloud Storage and Credential Exposure Risk** — Azure](Detection-and-Alerting/Azure-Credential-Exposure.md)
 
   > _Used a Microsoft CTI report to model how implicit trust of keys or SAS tokens enables a path to silent persistence in Azure. Once enumerated, access is granted without re-evaluating identity. I built a KQL detection to flag identities enumarating their credentials outside of their normal pattern_
@@ -12,9 +11,6 @@
 
   > _Created scheduled KQL analytics rule to detect repeated failed authentication attempts from single IPs, tuned threshold to 20 failures over 5 hours to balance noise reduction with detection coverage_
 
-- [**Homelab EDR Deployment** — Wazuh](Detection-and-Alerting/Wazuh-Endpoint-Monitoring-Alert-Tuning.md)
-
-  > _Deployed Wazuh as a multi-OS EDR solution in my homelab. All traffic is routed and encrypted via a Tailscale mesh network to prevent public internet exposure._
 
 ---
 
@@ -28,21 +24,11 @@
 
   > _Investigated suspected insider data exfiltration following employee PIP placement, observed PowerShell data staging on endpoint, found no evidence of network exfiltration beyond local staging activity_
 
-- [**Investigating Multi-Host Hands-On-Keybaord Intrusion** — Sentinel / Defender XDR ](Threat-Investigation/Sentinel-The-Broker-Threat-Hunt-CTF.md)
 
-  > _Traced credential dumping, lateral movement, persistence techniques, and payroll data staging across enterprise endpoints_
-  
 - [**Investigating Unauthorized Tor Browser Usage** — Defender XDR](Threat-Investigation/Tor-Browser-Final-Project/MDXDR-Tor-Browser.md)
 
   > _Investigated unauthorized Tor browser usage on corporate endpoint, observed installation and active network connections to Tor nodes, isolated device and notified management_
 
-- [**Investigating a Spear-Phishing Campaign** — Splunk](Threat-Investigation/Splunk-Phishing-Lateral-Movement.md)
-
-  > _Investigated spear-phishing campaign from initial access through exfiltration, observed 4 compromised hosts with PowerShell C2 beaconing. Estimated ~120MB data exfiltrated_
-
-- [**Executing a Proactive Intel-Driven Threat Hunt** — Splunk](Threat-Investigation/Splunk-Intel-Driven-Threat-Hunt.md)
-
-  > _Conducted CTI-informed threat hunt for APT web targeting, observed 26,000+ unsuccessful credential stuffing attempts against phpMyAdmin endpoint, recommended exposure reduction controls_
 ---
 
 ### Tenable
@@ -59,3 +45,27 @@
 - [WN11-AC-000010 STIG Remdeiation - **Limit Logon Attempts**](Vulnerability-Management/STIG-Implementations/WN11-AC-000010_Limit_Logon_Attempts)
 - [WN11-00-000090 STIG Remediation - **Enable Password Expiration**](Vulnerability-Management/STIG-Implementations/WN11-00-000090_Password_Expiration)
 - [WN11-00-000395 SITG Remediation - **Disable PortProxy**](Vulnerability-Management/STIG-Implementations/WN11-00-000395_Disable_PortProxy)
+
+---
+
+### Splunk
+
+- [**Investigating a Spear-Phishing Campaign** — Splunk](Threat-Investigation/Splunk-Phishing-Lateral-Movement.md)
+
+  > _Investigated spear-phishing campaign from initial access through exfiltration, observed 4 compromised hosts with PowerShell C2 beaconing. Estimated ~120MB data exfiltrated_
+
+- [**Executing a Proactive Intel-Driven Threat Hunt** — Splunk](Threat-Investigation/Splunk-Intel-Driven-Threat-Hunt.md)
+
+  > _Conducted CTI-informed threat hunt for APT web targeting, observed 26,000+ unsuccessful credential stuffing attempts against phpMyAdmin endpoint, recommended exposure reduction controls_
+
+---
+
+### OTHER
+
+- [**Investigating Multi-Host Hands-On-Keybaord Intrusion** — Sentinel / Defender XDR ](Threat-Investigation/Sentinel-The-Broker-Threat-Hunt-CTF.md)
+
+  > _Traced credential dumping, lateral movement, persistence techniques, and payroll data staging across enterprise endpoints_
+
+- [**Homelab EDR Deployment** — Wazuh](Detection-and-Alerting/Wazuh-Endpoint-Monitoring-Alert-Tuning.md)
+
+  > _Deployed Wazuh as a multi-OS EDR solution in my homelab. All traffic is routed and encrypted via a Tailscale mesh network to prevent public internet exposure._
