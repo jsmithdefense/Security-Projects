@@ -54,7 +54,7 @@
 
   > _Investigated spear-phishing campaign from initial access through exfiltration, observed 4 compromised hosts with PowerShell C2 beaconing. Estimated ~120MB data exfiltrated_
 
-- [**Executing a Proactive Intel-Driven Threat Hunt**](Threat-Investigation/Splunk-Intel-Driven-Threat-Hunt.md)
+- [**Intel-Driven Threat Hunting**](Threat-Investigation/Splunk-Intel-Driven-Threat-Hunt.md)
 
   > _Conducted CTI-informed threat hunt for APT web targeting, observed 26,000+ unsuccessful credential stuffing attempts against phpMyAdmin endpoint, recommended exposure reduction controls_
 
