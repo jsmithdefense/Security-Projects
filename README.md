@@ -16,11 +16,11 @@
 
 ### Defeder XDR:
 
-- [**Investigating Unintended Internet Exposure**](Defender-XDR/mdxdr-internet-exposure-initial-access.md)
+- [**Investigating Unintended Azure Vm Exposure**](Defender-XDR/mdxdr-internet-exposure-initial-access.md)
 
   > _Investigated Azure resource misconfiguration resulting in unintended internet exposure, assessed authentication outcomes, and recommended NSG hardening_
 
-- [**Investigating Insider Threat Data Exfiltration**](Defender-XDR/mdxdr-insider-threat-investigation.md)
+- [**Investigating a Potential Insider Threat**](Defender-XDR/mdxdr-insider-threat-investigation.md)
 
   > _Investigated suspected insider data exfiltration following employee PIP placement, observed PowerShell data staging on endpoint, found no evidence of network exfiltration beyond local staging activity_
 
