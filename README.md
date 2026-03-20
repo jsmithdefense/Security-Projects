@@ -5,7 +5,7 @@
 
 - [**Modeling Cloud Storage and Credential Exposure Risk**](Detection-and-Alerting/Azure-Credential-Exposure.md)
 
-  > _Used a Microsoft CTI report to model how implicit trust of keys or SAS tokens enables a path to silent persistence in Azure. Once enumerated, access is granted without re-evaluating identity. I built a KQL detection to flag identities enumarating their credentials outside of their normal pattern_
+  > _Used a Microsoft CTI report to model how implicit trust of keys or SAS tokens enables a path to silent persistence in Azure. Once enumerated, access is granted without re-evaluating identity. I built a KQL detection that flags identities enumarating their credentials outside of their normal pattern_
   
 - [**Azure VM Exposure & Access Hardening**](Detection-and-Alerting/Azure-VM-Exposure-and-Access-Hardening.md)
 
