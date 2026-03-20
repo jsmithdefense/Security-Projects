@@ -14,7 +14,7 @@
 
 ---
 
-### Defeder XDR:
+### Defender XDR:
 
 - [**Investigating Unintended Azure VM Exposure**](Defender-XDR/mdxdr-internet-exposure-initial-access.md)
 
