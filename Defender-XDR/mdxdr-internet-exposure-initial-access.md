@@ -1,9 +1,11 @@
  
-# Environment & Objective:
+# Investigating Unintended Azure VM Exposure
+
+## Environment & Objective:
 Identify endpoints exhibiting indicators of initial access attempts within the last 24 hours and validate whether initial access attempts progresed into successful compromise within a large-scale Azure honeynet environment.
 
 
-## Initial Scoping
+### Initial Scoping
 
 ![Alt text](https://miro.medium.com/v2/resize:fit:720/format:webp/1*6uG4iw65orC40gA-IMkAJQ.png)
 
@@ -57,7 +59,7 @@ No LogonSuccess events were observed for these IPs within the queried timeframe
 
 The activity was assessed as unsuccessful brute-force behavior with no evidence of compromise.
 
-## Remediation & Risk Reduction Steps:
+### Remediation & Risk Reduction Steps:
 In a production environment, response actions would depend on the system’s intended exposure and organizational policy.
 
 If the resource were not intended to be internet-facing, access could be restricted at the network security group (NSG) level to eliminate unnecessary RDP exposure. If public access were required, compensating controls such as tighter NSG rules, IP allowlisting, or additional access controls could be implemented to reduce repeated brute-force attempts.
