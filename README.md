@@ -1,6 +1,6 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:000000,100:1da1f2&text=Projects&fontSize=60&fontColor=B9D9EB&animation=fadeIn&fontAlignY=40" width="100%"/>
 
-### _Detection & Alerting_
+### Azure
 
 
 
@@ -18,8 +18,7 @@
 
 ---
 
-### _Threat Investigations_
-
+### Defeder XDR
 
 - [**Investigating Unintended Internet Exposure** — Defender XDR](Threat-Investigation/MDXDR-Internet-Exposure-Initial-Access.md)
 
@@ -46,7 +45,7 @@
   > _Conducted CTI-informed threat hunt for APT web targeting, observed 26,000+ unsuccessful credential stuffing attempts against phpMyAdmin endpoint, recommended exposure reduction controls_
 ---
 
-### _Vulnerability Management_
+### Tenable
 
 [READ ME](Vulnerability-Management/README.md)
 
