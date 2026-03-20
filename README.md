@@ -7,7 +7,7 @@
 
   > _Used a Microsoft CTI report to model how implicit trust of keys or SAS tokens enables a path to silent persistence in Azure. Once enumerated, access is granted without re-evaluating identity. I built a KQL detection that flags identities enumarating their credentials outside of their normal pattern_
   
-- [**Azure VM Exposure & Access Hardening**](Azure/azure-vm-wxposure-and-access-hardening.md)
+- [**Azure VM Exposure & Access Hardening**](Azure/azure-vm-exposure-and-access-hardening.md)
 
   > _Created scheduled KQL analytics rule to detect repeated failed authentication attempts from single IPs, tuned threshold to 20 failures over 5 hours to balance noise reduction with detection coverage_
 
@@ -16,16 +16,16 @@
 
 ### Defeder XDR:
 
-- [**Investigating Unintended Internet Exposure**](Threat-Investigation/MDXDR-Internet-Exposure-Initial-Access.md)
+- [**Investigating Unintended Internet Exposure**](Defender-XDR/mdxdr-internet-exposure-initial-access.md)
 
   > _Investigated Azure resource misconfiguration resulting in unintended internet exposure, assessed authentication outcomes, and recommended NSG hardening_
 
-- [**Investigating Potential Data Exfiltration**](Threat-Investigation/MDXDR-Insider-Threat-Investigation.md)
+- [**Investigating Insider Threat Data Exfiltration**](Defender-XDR/mdxdr-insider-threat-investigation.md)
 
   > _Investigated suspected insider data exfiltration following employee PIP placement, observed PowerShell data staging on endpoint, found no evidence of network exfiltration beyond local staging activity_
 
 
-- [**Investigating Unauthorized Tor Browser Usage**](Threat-Investigation/Tor-Browser-Final-Project/MDXDR-Tor-Browser.md)
+- [**Investigating Unauthorized Tor Browser Usage**](Defender-XDR/tor-browser-final-project)
 
   > _Investigated unauthorized Tor browser usage on corporate endpoint, observed installation and active network connections to Tor nodes, isolated device and notified management_
 
@@ -50,11 +50,11 @@
 
 ### Splunk:
 
-- [**Investigating a Spear-Phishing Campaign**](Threat-Investigation/Splunk-Phishing-Lateral-Movement.md)
+- [**Investigating a Spear-Phishing Campaign**](Splunk/splunk-phishing-lateral-movement.md)
 
   > _Investigated spear-phishing campaign from initial access through exfiltration, observed 4 compromised hosts with PowerShell C2 beaconing. Estimated ~120MB data exfiltrated_
 
-- [**Intel-Driven Threat Hunting**](Threat-Investigation/Splunk-Intel-Driven-Threat-Hunt.md)
+- [**Intel-Driven Threat Hunting**](Splunk/splunk-intel-driven-threat-hunt.md)
 
   > _Conducted CTI-informed threat hunt for APT web targeting, observed 26,000+ unsuccessful credential stuffing attempts against phpMyAdmin endpoint, recommended exposure reduction controls_
 
@@ -62,10 +62,10 @@
 
 ### Other:
 
-- [**Multi-Host Hands-On-Keybaord Intrusion CTF**](Threat-Investigation/Sentinel-The-Broker-Threat-Hunt-CTF.md)
+- [**Multi-Host Hands-On-Keybaord Intrusion CTF**](OTHER/sentinel-the-broker-threat-hunt-ctf.md)
 
   > _Traced credential dumping, lateral movement, persistence techniques, and payroll data staging across enterprise endpoints_
 
-- [**Wazuh EDR Homelab**](Detection-and-Alerting/Wazuh-Endpoint-Monitoring-Alert-Tuning.md)
+- [**Wazuh EDR Homelab**](OTHER/sentinel-the-broker-threat-hunt-ctf.md)
 
   > _Deployed Wazuh as a multi-OS EDR solution in my homelab. All traffic is routed and encrypted via a Tailscale mesh network to prevent public internet exposure._
