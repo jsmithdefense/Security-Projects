@@ -60,7 +60,7 @@
 
 ---
 
-### OTHER:
+### Other:
 
 - [**Multi-Host Hands-On-Keybaord Intrusion CTF**](Threat-Investigation/Sentinel-The-Broker-Threat-Hunt-CTF.md)
 
