@@ -62,7 +62,7 @@
 
 ### OTHER
 
-- [**Investigating Multi-Host Hands-On-Keybaord Intrusion** — Sentinel / Defender XDR ](Threat-Investigation/Sentinel-The-Broker-Threat-Hunt-CTF.md)
+- [**Multi-Host Hands-On-Keybaord Intrusion CTF** — Sentinel / Defender XDR ](Threat-Investigation/Sentinel-The-Broker-Threat-Hunt-CTF.md)
 
   > _Traced credential dumping, lateral movement, persistence techniques, and payroll data staging across enterprise endpoints_
 
