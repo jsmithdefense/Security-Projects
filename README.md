@@ -33,7 +33,7 @@
 
 ### Tenable:
 
-[READ ME](Vulnerability-Management/README.md)
+[READ ME](Tenable/readme.md)
 
 - [WN11-AU-000050 STIG Remediation - **Enable Process Creation Auditing**](Vulnerability-Management/STIG-Implementations/WN11-AU-000050_Proccess_Create_Auditing)
 - [WN11-AU-000560 STIG Remediation - **Enable Logon Auditing**](Vulnerability-Management/STIG-Implementations/WN11-AU-000560_Enable_Logon_Auditing)
