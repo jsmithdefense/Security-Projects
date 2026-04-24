@@ -2,7 +2,7 @@
 
 ### Azure:
 
-- [**Azure RBAC Risk Analyzer](https://github.com/jsmithdefense/Azure-RBAC-Risk-Analyzer)
+- [**Azure RBAC Risk Analyzer**](https://github.com/jsmithdefense/Azure-RBAC-Risk-Analyzer)
 
 > _Built a tool that analyzes all role assignments across a tenant, ranks subscriptions and principals by cumulative risk score, and generates AI remediation playbooks which can be executed either manually or automatically via Azure SDK_
 
