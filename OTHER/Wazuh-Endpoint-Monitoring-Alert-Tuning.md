@@ -1,6 +1,6 @@
 ## Endpoint Monitoring & Alert Tuning — Wazuh EDR Home Lab
 
-![Alt text](https://media.licdn.com/dms/image/v2/D5622AQEQcZfWnN0DIw/feedshare-shrink_2048_1536/B56Zt2IQcaHAAw-/0/1767213436365?e=1772064000&v=beta&t=4VP5lnhgMZkcgGvQkUxBNrX7K3oXSd8XXkVuZbqBCkg)
+<img width="1889" height="926" alt="image" src="https://github.com/user-attachments/assets/e5e91fc9-a820-41f3-ba2a-64f082c8beff" />
 
 ### Environment Overview
 
