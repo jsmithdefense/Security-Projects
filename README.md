@@ -14,6 +14,10 @@
 
   > _Created scheduled KQL analytics rule to detect repeated failed authentication attempts from single IPs, tuned threshold to 20 failures over 5 hours to balance noise reduction with detection coverage_
 
+- [**Multi-Host Hands-On-Keyboard Intrusion CTF**](Azure/sentinel-the-broker-threat-hunt-ctf.md)
+
+  > _Traced credential dumping, lateral movement, persistence techniques, and payroll data staging across enterprise endpoints_
+
 
 ---
 
@@ -63,12 +67,12 @@
 
 ---
 
-### Other:
+### Homelab:
 
-- [**Multi-Host Hands-On-Keybaord Intrusion CTF**](OTHER/sentinel-the-broker-threat-hunt-ctf.md)
+- [**ConDef Homelab**](Homelab/ConDef-Homelab.md)
 
-  > _Traced credential dumping, lateral movement, persistence techniques, and payroll data staging across enterprise endpoints_
+  > _Purple-team practice lab on Proxmox VE covering Windows Active Directory, ADCS, endpoint telemetry, and detection engineering_
 
-- [**Wazuh EDR Homelab**](OTHER/sentinel-the-broker-threat-hunt-ctf.md)
+- [**Wazuh EDR Homelab**](Homelab/Wazuh-Endpoint-Monitoring-Alert-Tuning.md)
 
   > _Deployed Wazuh as a multi-OS EDR solution in my homelab. All traffic is routed and encrypted via a Tailscale mesh network to prevent public internet exposure._
