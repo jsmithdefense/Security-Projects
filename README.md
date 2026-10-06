@@ -14,10 +14,6 @@
 
   > _Created scheduled KQL analytics rule to detect repeated failed authentication attempts from single IPs, tuned threshold to 20 failures over 5 hours to balance noise reduction with detection coverage_
 
-- [**Multi-Host Hands-On-Keyboard Intrusion CTF**](Azure/sentinel-the-broker-threat-hunt-ctf.md)
-
-  > _Traced credential dumping, lateral movement, persistence techniques, and payroll data staging across enterprise endpoints_
-
 
 ---
 
@@ -35,6 +31,10 @@
 - [**Investigating Unauthorized Tor Browser Usage**](Defender-XDR/tor-browser-final-project)
 
   > _Investigated unauthorized Tor browser usage on corporate endpoint, observed installation and active network connections to Tor nodes, isolated device and notified management_
+
+- [**Multi-Host Hands-On-Keyboard Intrusion CTF**](Defender-XDR/sentinel-the-broker-threat-hunt-ctf.md)
+
+  > _Traced credential dumping, lateral movement, persistence techniques, and payroll data staging across enterprise endpoints_
 
 ---
 
