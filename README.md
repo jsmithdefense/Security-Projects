@@ -71,7 +71,7 @@
 
 - [**ConDef Homelab**](Homelab/ConDef-Homelab.md)
 
-  > _Purple-team practice lab on Proxmox VE covering Windows Active Directory, ADCS, endpoint telemetry, and detection engineering_
+  > _Built a purple-team practice lab on Proxmox VE covering Windows Active Directory, ADCS, endpoint telemetry, and detection engineering. Promoted a Domain Controller, configured ADCS Certificate Services, domain-joined Windows 11 and Linux clients, and deployed Wazuh EDR across the environment with Tailscale mesh VPN_
 
 - [**Wazuh EDR Homelab**](Homelab/Wazuh-Endpoint-Monitoring-Alert-Tuning.md)
 
