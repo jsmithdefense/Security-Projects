@@ -1,7 +1,5 @@
 # ConDef Homelab
 
-<!-- TODO: Add overview screenshot — Proxmox UI or network diagram -->
-
 ## Overview
 
 ConDef is a purple-team practice lab built on Proxmox VE. The lab covers Windows Active Directory, Active Directory Certificate Services (ADCS), endpoint telemetry, and detection engineering. All VMs run on an internal virtual bridge with NAT. A Tailscale mesh VPN provides remote access to the lab subnet.
@@ -10,16 +8,12 @@ ConDef is a purple-team practice lab built on Proxmox VE. The lab covers Windows
 
 The lab runs on a single Proxmox VE host. All VMs connect to an internal virtual bridge (vmbr1) with NAT to the host bridge (vmbr0).
 
-| VM ID | Hostname | Role | OS | Status |
-|---|---|---|---|---|
-| 100 | dc.condef.local | Domain Controller, AD DS, DNS | Windows Server 2019 | Complete |
-| 101 | win11a.condef.local | Attacker host | Windows 11 Pro | Complete |
-| 102 | win11v.condef.local | Victim host | Windows 11 Pro | Complete |
-| 103 | certer.condef.local | ADCS, Enterprise Root CA | Windows Server 2019 | Complete |
-| 104 | linuxa | Attacker (Mythic, Metasploit) | Linux | In progress |
-| 105 | linuxv | Victim (Kubernetes) | Linux | Not built |
-| 106 | pcap | Malcolm PCAP sensor (Zeek, Suricata) | Linux | Deferred (RAM) |
-| 107 | siem | Splunk indexer | Linux | Not built |
+| VM ID | Hostname | Role | OS |
+|---|---|---|---|
+| 100 | dc.condef.local | Domain Controller, AD DS, DNS | Windows Server 2019 |
+| 101 | win11a.condef.local | Attacker host | Windows 11 Pro |
+| 102 | win11v.condef.local | Victim host | Windows 11 Pro |
+| 103 | certer.condef.local | ADCS, Enterprise Root CA | Windows Server 2019 |
 
 ## Active Directory
 
@@ -54,16 +48,6 @@ The Proxmox host uses these security controls:
 
 Wazuh SIEM/EDR is deployed across the lab environment. Sysmon runs on all Windows endpoints. All traffic is routed and encrypted via Tailscale mesh VPN to prevent public internet exposure.
 
-Planned telemetry additions:
-- Splunk indexer (VM 107) for centralized log aggregation
-- Malcolm PCAP sensor (VM 106) for Zeek and Suricata network monitoring
-- Auditd and Laurel on Linux VMs for Linux telemetry
-- Kubernetes telemetry on the victim Linux host
-
-## Build Status
-
-Four of eight VMs are complete. The remaining VMs (Linux attacker, Linux victim, Malcolm PCAP sensor, Splunk indexer) are pending or deferred due to RAM constraints on the Proxmox host.
-
 ## Technologies
 
-Proxmox VE, Windows Server 2019, Windows 11 Pro, Active Directory Domain Services, Active Directory Certificate Services, Group Policy Objects, DNS, Sysmon, Wazuh, Tailscale, PowerShell, Linux
+Proxmox VE, Windows Server 2019, Windows 11 Pro, Active Directory Domain Services, Active Directory Certificate Services, Group Policy Objects, DNS, Sysmon, Wazuh, Tailscale, PowerShell
