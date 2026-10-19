@@ -2,7 +2,7 @@
 
 ## Overview
 
-ConDef is a purple-team practice lab built on Proxmox VE. The lab covers Windows Active Directory, Active Directory Certificate Services (ADCS), endpoint telemetry, and detection engineering. All VMs run on an internal virtual bridge with NAT. A Tailscale mesh VPN provides remote access to the lab subnet.
+ConDef is a purple-team practice lab built on Proxmox VE. The lab covers Windows Active Directory, Active Directory Certificate Services (ADCS), Linux attack infrastructure, endpoint telemetry, and detection engineering. All VMs run on an internal virtual bridge with NAT. A Tailscale mesh VPN provides remote access to the lab subnet.
 
 ## Architecture
 
@@ -14,6 +14,7 @@ The lab runs on a single Proxmox VE host. All VMs connect to an internal virtual
 | 101 | win11a.condef.local | Attacker host | Windows 11 Pro |
 | 102 | win11v.condef.local | Victim host | Windows 11 Pro |
 | 103 | certer.condef.local | ADCS, Enterprise Root CA | Windows Server 2019 |
+| 104 | linuxa | Attacker host (C2 tooling) | Ubuntu |
 
 ## Active Directory
 
@@ -26,6 +27,10 @@ A Windows Auditing GPO configures process creation auditing and logon auditing a
 ## ADCS
 
 Certer (VM 103) runs Active Directory Certificate Services on Windows Server 2019. I installed the ADCS role and configured an Enterprise Root CA for the domain. The CA issues certificates for domain users and computers.
+
+## Linux Attack Infrastructure
+
+Linuxa (VM 104) is an Ubuntu attacker host on the lab subnet. It is not domain-joined; it interacts with the domain over the network the way real attack infrastructure would.
 
 ## Network
 
@@ -50,4 +55,4 @@ Wazuh SIEM/EDR is deployed across the lab environment. Sysmon runs on all Window
 
 ## Technologies
 
-Proxmox VE, Windows Server 2019, Windows 11 Pro, Active Directory Domain Services, Active Directory Certificate Services, Group Policy Objects, DNS, Sysmon, Wazuh, Tailscale, PowerShell
+Proxmox VE, Windows Server 2019, Windows 11 Pro, Ubuntu, Active Directory Domain Services, Active Directory Certificate Services, Group Policy Objects, DNS, Sysmon, Wazuh, Tailscale, PowerShell
