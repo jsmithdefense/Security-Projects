@@ -1,5 +1,28 @@
 # ConDef Homelab
 
+```mermaid
+flowchart TB
+    remote["Remote admin device"] -->|"Tailscale subnet route"| vmbr1
+
+    subgraph proxmox["Proxmox VE host"]
+        vmbr0["vmbr0: host network"]
+        vmbr1["vmbr1: internal lab bridge (NAT)"]
+
+        dc["dc.condef.local<br>VM 100: Domain Controller (AD DS, DNS)"]
+        win11a["win11a.condef.local<br>VM 101: Attacker (Windows 11)"]
+        win11v["win11v.condef.local<br>VM 102: Victim (Windows 11)"]
+        certer["certer.condef.local<br>VM 103: ADCS (Enterprise Root CA)"]
+        linuxa["linuxa<br>VM 104: Attacker (Ubuntu)"]
+
+        vmbr1 -->|"NAT masquerade"| vmbr0
+        dc --- vmbr1
+        win11a --- vmbr1
+        win11v --- vmbr1
+        certer --- vmbr1
+        linuxa --- vmbr1
+    end
+```
+
 ## Overview
 
 ConDef is a purple-team practice lab built on Proxmox VE. The lab covers Windows Active Directory, Active Directory Certificate Services (ADCS), Linux attack infrastructure, endpoint telemetry, and detection engineering. All VMs run on an internal virtual bridge with NAT. A Tailscale mesh VPN provides remote access to the lab subnet.
