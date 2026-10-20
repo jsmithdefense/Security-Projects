@@ -47,8 +47,8 @@ Through iterative tuning, I observed that endpoint and network telemetry alone m
 
 Operating the Wazuh environment strengthened my understanding of:
 
-* How raw endpoint telemetry is transformed into analyst-consumable alerts
-* The role of behavioral indicators when static indicators are weak or ambiguous
+* How raw endpoint telemetry is transformed into alerts
+* The role of behavioral indicators when static indicators ambiguous
 * Why alerts require contextual validation 
 * How detection logic quality directly impacts analyst workload and decision making
 
