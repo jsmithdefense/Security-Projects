@@ -23,7 +23,7 @@ Notes guiding the hunt:
 
 * T1595 – Active Scanning
 * T1592 – Gather Victim Host Information
-* T1110.004 - Credential Stuffing (attempted)
+* T1110.001 - Password Guessing (attempted)
 
 ---
 
@@ -37,7 +37,7 @@ Notes guiding the hunt:
 
 ### Baseline Analysis — HTTP User-Agent Distribution
 
-```kql
+```spl
 index=botsv2 sourcetype="stream:http" earliest="08/01/2017:00:00:00" latest="09/01/2017:00:00:00" 
 | top http_user_agent, src_ip, dest_ip limit=20
 ```
@@ -71,13 +71,13 @@ The geographic profile and tooling fingerprint were anomalous relative to Frothl
 
 #### `Python-urllib/2.7`
 
-This activity was assessed as benign and excluded from further investigation.
+This activity was assessed as benign and excluded from further investigation: the source IP resolved to an internal Frothly host, consistent with routine company Python scripting rather than external reconnaissance.
 
 ---
 
 ### Targeting & Request Pattern Analysis
 
-```kql
+```spl
 index=botsv2 sourcetype="stream:http" http_user_agent="Mozilla/5.0 Jorgee" earliest="08/01/2017:00:00:00" latest="09/01/2017:00:00:00"
 | top http_user_agent src_ip dest_ip http_method site url showperc=f limit=5
 ```
@@ -107,7 +107,7 @@ HTTP request analysis showed:
 
 * Consistent user-agent string (Mozilla/5.0 Jorgee) across attempts
 
-* Activity aligns with MITRE technique T1110.004 – Credential Stuffing
+* Activity aligns with MITRE technique T1110.001 – Password Guessing
 
 ### Authentication Outcome Validation
 
